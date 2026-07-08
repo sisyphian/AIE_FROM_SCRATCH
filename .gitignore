@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# model files
+.DS_Store
+.pt 
+*.pkl
+*.pth 
+*.bin
+*.safetensors
