@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "line-profiler>=5.0.2",
+    "matplotlib>=3.11.0",
     "memory-profiler>=0.61.0",
     "numpy>=2.5.1",
+    "scikit-learn>=1.9.0",
 ]
