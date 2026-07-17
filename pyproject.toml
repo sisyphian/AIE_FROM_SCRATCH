@@ -8,6 +8,8 @@ dependencies = [
     "line-profiler>=5.0.2",
     "matplotlib>=3.11.0",
     "memory-profiler>=0.61.0",
+    "mlxtend>=0.25.0",
     "numpy>=2.5.1",
+    "pandas>=3.0.3",
     "scikit-learn>=1.9.0",
 ]
