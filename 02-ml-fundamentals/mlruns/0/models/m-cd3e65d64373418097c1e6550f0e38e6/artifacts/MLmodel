@@ -1,0 +1,23 @@
+artifact_path: /Users/absyd/mystfs/cs/ai/coursingggs_/AI_ENG_FROM_SCRATCH/02-ml-fundamentals/mlruns/0/models/m-cd3e65d64373418097c1e6550f0e38e6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-cd3e65d64373418097c1e6550f0e38e6
+model_size_bytes: 23252
+model_uuid: m-cd3e65d64373418097c1e6550f0e38e6
+prompts: null
+run_id: 9d60657a10fc4074a2b9101a164ae0db
+utc_time_created: '2026-08-04 11:13:31.159445'

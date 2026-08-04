@@ -1,0 +1,26 @@
+2026-08-04 17:44:58,854 INFO    MainThread:70135 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-08-04 17:44:58,855 INFO    MainThread:70135 [wandb_setup.py:_flush():81] Configure stats pid to 70135
+2026-08-04 17:44:58,855 INFO    MainThread:70135 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-08-04 17:44:58,856 INFO    MainThread:70135 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /Users/absyd/mystfs/cs/ai/coursingggs_/AI_ENG_FROM_SCRATCH/02-ml-fundamentals/wandb/run-20260804_174458-bkf5w0r6/logs/debug.log
+2026-08-04 17:44:58,856 INFO    MainThread:70135 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /Users/absyd/mystfs/cs/ai/coursingggs_/AI_ENG_FROM_SCRATCH/02-ml-fundamentals/wandb/run-20260804_174458-bkf5w0r6/logs/debug-internal.log
+2026-08-04 17:44:58,856 INFO    MainThread:70135 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x119a29430>
+2026-08-04 17:44:58,857 INFO    MainThread:70135 [wandb_init.py:init():844] calling init triggers
+2026-08-04 17:44:58,857 INFO    MainThread:70135 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-08-04 17:44:58,857 INFO    MainThread:70135 [wandb_init.py:init():892] starting backend
+2026-08-04 17:44:59,782 INFO    MainThread:70135 [wandb_init.py:init():895] sending inform_init request
+2026-08-04 17:44:59,839 INFO    MainThread:70135 [wandb_init.py:init():903] backend started and connected
+2026-08-04 17:44:59,845 INFO    MainThread:70135 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-08-04 17:44:59,846 INFO    MainThread:70135 [wandb_run.py:_label_probe_notebook():1343] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-08-04 17:44:59,846 INFO    MainThread:70135 [wandb_init.py:init():973] updated telemetry
+2026-08-04 17:44:59,913 INFO    MainThread:70135 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-08-04 17:45:01,084 INFO    MainThread:70135 [wandb_init.py:init():1042] starting run threads in backend
+2026-08-04 17:45:01,577 INFO    MainThread:70135 [wandb_run.py:_console_start():2524] atexit reg
+2026-08-04 17:45:01,577 INFO    MainThread:70135 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-08-04 17:45:01,577 INFO    MainThread:70135 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-08-04 17:45:01,577 INFO    MainThread:70135 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-08-04 17:45:01,602 INFO    MainThread:70135 [wandb_init.py:init():1082] run started, returning control to user process
+2026-08-04 17:45:01,603 INFO    MainThread:70135 [wandb_run.py:_config_callback():1403] config_cb None None {'max_depth': 5, 'n_estimators': 100}
+2026-08-04 17:45:01,623 INFO    MainThread:70135 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-08-04 17:47:06,659 INFO    wandb-AsyncioManager-main:70135 [service_client.py:_forward_responses():134] Reached EOF.
+2026-08-04 17:47:06,661 INFO    wandb-AsyncioManager-main:70135 [mailbox.py:close():155] Closing mailbox, abandoning 1 handles.
